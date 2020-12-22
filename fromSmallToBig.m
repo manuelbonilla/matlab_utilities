@@ -1,5 +1,7 @@
 function fromSmallToBig(scaleX,scaleY,scaleZ)
 
+% Here the scaling factor. Acordinf to experiments 10% is th difference
+% among bigest and smallest
 if(nargin<3)
     scaleX = 1.1;
     scaleY = 1.1;
